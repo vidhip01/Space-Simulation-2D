@@ -30,7 +30,7 @@ def draw_static_ball(balls):
     for ball in balls:
         pos_x = int(ball.body.position.x)
         pos_y = int(ball.body.position.y)
-        pygame.draw.circle(screen,(0,0,0),(pos_x , pos_y),50)
+        pygame.draw.circle(screen,(0,0,0),(pos_x , pos_y),53)
 
 
 
