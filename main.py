@@ -73,6 +73,8 @@ while True: #Game loop so that it stays for infinite time
 
     pygame.display.update() #rendering the frame
     clock.tick(120)  #limiting the frames per second to 120
+    
+    #Gravity space simulation done
 
 
 
